@@ -5,23 +5,12 @@
 </head>
 <body>
         <picture>
-                <img
-                sizes="(max-width: 1400px) 100vw, 1400px"
-                srcset="
-                images/dog_c_scale,w_200.jpg 200w,
-                images/dog_c_scale,w_424.jpg 424w,
-                images/dog_c_scale,w_589.jpg 589w,
-                images/dog_c_scale,w_723.jpg 723w,
-                images/dog_c_scale,w_848.jpg 848w,
-                images/dog_c_scale,w_943.jpg 943w,
-                images/dog_c_scale,w_1068.jpg 1068w,
-                images/dog_c_scale,w_1150.jpg 1150w,
-                images/dog_c_scale,w_1199.jpg 1199w,
-                images/dog_c_scale,w_1386.jpg 1386w,
-                images/dog_c_scale,w_1398.jpg 1398w,
-                images/dog_c_scale,w_1400.jpg 1400w"
-                src="images/dog_c_scale,w_1400.jpg"
-                alt="dog image">
+                <source media="(min-width:1400px)" srcset="images/roses-1400.jpg">
+                <source media="(min-width:1200px)" srcset="images/roses-1200.jpg">
+                <source media="(min-width:900px)" srcset="images/roses-1000.jpg">
+                <source media="(min-width:600px)" srcset="images/roses-900.jpg">
+                <source media="(min-width:350px)" srcset="images/rose-500.jpg">
+                <img src="images/roses-1400.jpg" alt="Flowers" style="width:auto;">
         </picture>
 </body>
 
